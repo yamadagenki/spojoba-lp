@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese');
+
+h1, h2, h3, h4, h5, h6, body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+@media (min-width: 576px) {
+    body {
+        min-width: 1280px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.fw-thin {
+    font-weight: 100;
+}
+.fw-light {
+    font-weight: 200;
+}
+.fw-bold {
+    font-weight: 500;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-34 {
+    font-size: 34px;
+}
+small {
+    font-size: 12px;
+}
+.btn-danger {
+    background-color: #E63A70;
+    border-color: #E63A70;
+}
+
+body{
+    overflow-x: hidden;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+h2{
+    font-size:45px;
+    margin-bottom: 2%;
+}
+h3{
+    font-size:30px;
+    margin-bottom: 2%;
+}
+h4, h5{
+    margin-bottom: 2%;
+}
+.entry-title{
+    color:#3BB4D7;
+}
+p{
+    margin-bottom: 2%;
+}
+.home-section1 .section-inner{
+    background-image: url('../image/top_image.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 60%;
+}
+.home-section1 .section-inner .row{
+    padding: 5% 0;
+    background-image: linear-gradient(#0000ff59, #ff000047);
+}
+.home-section1 p{
+    font-size: 50px;
+}
+.home-section1 p span{
+    font-size:80%;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+header h2{
+    color:#ffffff;
+}
+.home-section2 .container{
+    max-width: 800px;
+}
+.home-section4 .border-info{
+    height: 250px;
+    width: 250px;
+    border:1px solid #3BB4D7;
+}
+
+.home-section5 .section-inner{
+    background-image: url('../image/class.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 60%;
+}
+.home-section5 .row, .home-section7 .row{
+    padding:15% 0;
+    background-image: linear-gradient(#0000ff59, #ff000047);
+}
+.home-section7 .section-inner {
+    background-image: url('../image/job_offer_image.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 60%;
+}
+footer{
+    background-color:#DFE2E7;
+    color: #8E97A5;
+}
+.logo{
+    font-weight: 900;
+}
+.cad{
+    border:1px solid #DFE2E7;
+}
+.btn-outline{
+    border:1px solid #3BB4D7;
+    color:#3BB4D7;
+}
+.home-section9 {
+    background-color: #F7F9FC;
+}
+@media screen and (max-width: 577px){
+    .home-section1 .section-inner .row{
+        padding: 10% 0;
+    }
+    body { 
+        text-align: center;
+    }
+    .home-section4 .border-info{
+        height: 160px;
+        width: 160px;
+    }
+    h2{
+        font-size:33px;
+        margin-bottom:5%;
+    }
+    h3{
+        font-size:28px;
+        margin-bottom:5%;
+    }
+    h4{
+        font-size:20px;
+        margin-bottom: 5%;
+    }
+    .home-section5 .row, .home-section7 .row{
+        padding:25% 0;
+    }
+    .entry-text{
+        font-size:15px;
+        text-align: center !important;
+    }
+    .shadow.rounded .entry-text{
+        text-align:center !important;
+    }
+    .home-section1 p{
+        font-size:40px;
+        padding-top:30px;
+    }
+}
