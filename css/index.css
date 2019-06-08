@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese');
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese'); */
 
 h1, h2, h3, h4, h5, h6, body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -68,17 +68,16 @@ p{
     margin-bottom: 2%;
 }
 .home-section1 .section-inner{
-    background-image: url('../image/top_image.jpg');
+    background-image: url('../image/index_bg.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 60%;
 }
 .home-section1 .section-inner .row{
-    padding: 5% 0;
-    background-image: linear-gradient(#0000ff59, #ff000047);
+    padding: 13% 0;
 }
 .home-section1 p{
-    font-size: 50px;
+    font-size: 80px;
 }
 .home-section1 p span{
     font-size:80%;
@@ -91,7 +90,7 @@ header h2{
     color:#ffffff;
 }
 .home-section2 .container{
-    max-width: 800px;
+    max-width: 1280px;
 }
 .home-section4 .border-info{
     height: 250px;
@@ -100,20 +99,20 @@ header h2{
 }
 
 .home-section5 .section-inner{
-    background-image: url('../image/class.jpg');
+    background-image: url('../image/marine_image.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 60%;
 }
 .home-section5 .row, .home-section7 .row{
-    padding:15% 0;
-    background-image: linear-gradient(#0000ff59, #ff000047);
+    padding:25% 0;
 }
 .home-section7 .section-inner {
-    background-image: url('../image/job_offer_image.png');
+    background-image: url('../image/spectator.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 0 60%;
+    margin-top: -100px;
 }
 footer{
     background-color:#DFE2E7;
