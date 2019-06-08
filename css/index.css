@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese'); */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese');
 
 h1, h2, h3, h4, h5, h6, body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -107,6 +107,10 @@ header h2{
 .home-section5 .row, .home-section7 .row{
     padding:25% 0;
 }
+
+.home-section6 .container {
+    margin-top: -100px;
+}
 .home-section7 .section-inner {
     background-image: url('../image/spectator.png');
     -webkit-background-size: cover;
@@ -131,9 +135,24 @@ footer{
 .home-section9 {
     background-color: #F7F9FC;
 }
+.pc-left {
+    text-align: left;
+}
 @media screen and (max-width: 577px){
+    .pc-left {
+        text-align: center;
+    }
+    .home-section1 .section-inner{
+        background-image: url('../image/sp_bg.png');
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: 0 60%;
+    }
+    .home-section6 .container {
+        margin-top: 0;
+    }
     .home-section1 .section-inner .row{
-        padding: 10% 0;
+        padding: 45% 0;
     }
     body { 
         text-align: center;
@@ -156,6 +175,9 @@ footer{
     }
     .home-section5 .row, .home-section7 .row{
         padding:25% 0;
+    }
+    .home-section7 .section-inner {
+        margin-top: -50px;
     }
     .entry-text{
         font-size:15px;
